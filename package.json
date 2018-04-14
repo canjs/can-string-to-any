@@ -1,6 +1,6 @@
 {
   "name": "can-string-to-any",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert strings to equivalent JavaScript values",
   "homepage": "http://canjs.com",
   "repository": {
