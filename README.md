@@ -2,25 +2,17 @@
 
 [![Build Status](https://travis-ci.org/canjs/can-string-to-any.svg?branch=master)](https://travis-ci.org/canjs/can-string-to-any)
 
-Convert strings to equivalent JavaScript values
+Convert strings to equivalent JavaScript values. Works in NodeJS and in all browsers.
 
-## Usage
-
-### ES6 use
-
-With StealJS, you can import this module directly in a template that is autorendered:
+## Use
 
 ```js
-import plugin from 'can-string-to-any';
-```
+import stringToAny from 'can-string-to-any';
 
-### CommonJS use
-
-Use `require` to load `can-string-to-any` and everything else
-needed to create a template that uses `can-string-to-any`:
-
-```js
-var plugin = require("can-string-to-any");
+stringToAny("null")  //-> null
+stringToAny("-3")     //-> -3
+stringToAny("false") //-> false
+stringToAny("NaN")   //-> NaN
 ```
 
 ### Standalone use
