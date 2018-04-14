@@ -2,7 +2,6 @@
 
 var QUnit = require("steal-qunit");
 var stringToAny = require("./can-string-to-any");
-var each = require("../each/each");
 
 QUnit.module("can-util/js/string-to-any");
 
