@@ -25,17 +25,7 @@
     "build": "node build.js",
     "develop": "done-serve --static --develop --port 8080"
   },
-  "main": "dist/cjs/can-string-to-any",
-  "browser": {
-    "transform": [
-      "cssify"
-    ]
-  },
-  "browserify": {
-    "transform": [
-      "cssify"
-    ]
-  },
+  "main": "can-string-to-any",
   "keywords": [
     "canjs",
     "donejs-plugin"
@@ -50,10 +40,6 @@
       "generator-donejs",
       "donejs-cli",
       "steal-tools"
-    ],
-    "plugins": [
-      "steal-less",
-      "steal-stache"
     ]
   },
   "dependencies": {},
