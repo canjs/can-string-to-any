@@ -1,6 +1,7 @@
 @module {function} can-string-to-any
 @parent can-js-utilities
 @collection can-infrastructure
+@package ./package.json
 @description Turns a string representation of a primitive type back into the associated primitive.
 
 @signature `stringToAny(string)`
