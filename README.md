@@ -11,6 +11,25 @@
 
 Convert strings to equivalent JavaScript values. Works in NodeJS and in all browsers.
 
+## Use
+
+```js
+import stringToAny from 'can-string-to-any';
+
+stringToAny("null")  //-> null
+stringToAny("-3")     //-> -3
+stringToAny("false") //-> false
+stringToAny("NaN")   //-> NaN
+```
+
+### Standalone use
+
+Load the `global` version of the plugin:
+
+```html
+<script src='./node_modules/can-string-to-any/dist/global/can-string-to-any.js'></script>
+```
+
 ## Documentation
 
 Read the [can-string-to-any API docs on CanJS.com](https://canjs.com/doc/can-string-to-any.html).
